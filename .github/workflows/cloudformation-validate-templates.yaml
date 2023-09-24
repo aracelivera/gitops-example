@@ -63,4 +63,4 @@ jobs:
 
     - name: Validate cloudformation template
       run: |
-        aws cloudformation validate-template --template-body file://main.yaml
+        aws cloudformation validate-template --template-body main.yaml
